@@ -35,17 +35,26 @@ header img{
 
 .container{
     background-color: hsl(200deg 20% 97%);
-    height: 500px; /* PROVVISORIO! */
+    height: 1000px;  
     padding: 2em;
 }
 
 /* buttons space */
 
-.box-space{
+.box{
     width: 70%;
     background-color: white;
-    border-radius: 5%;
     margin: 0 auto;
+    margin-top: 5px;
+}
+
+.box.buttonspace{
+    border-radius: 5px 5px 0 0;
+}
+
+.box.listspace{
+    border-radius: 0 0 5px 5px;
+
 }
 
 .blue-button{
@@ -62,3 +71,76 @@ header img{
 }
 
 /* list space */
+.outer{
+    padding: 2em 5em;
+
+}
+
+ul{
+    list-style-type:none;
+    padding: 0.2em 0 1em;
+}
+
+li{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.5em;
+    vertical-align: middle;
+    color: rgb(85, 81, 81);
+}
+
+.inner{
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.task{
+font-size: 0.5rem;
+font-weight: bold;
+border-radius: 50%;
+width: 1rem;
+height: 1rem;
+display: inline-block;
+line-height: 1rem;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.task.done{
+    border: 1px solid green;
+    color: green;
+} 
+
+.task.undone{
+    border: 1px solid red;
+    color: red;
+}
+
+
+.label {
+    color: white;
+    font-size: 0.5rem;
+    padding: 0.7em 1.5em;    
+    border-radius: 50%;
+}
+
+.label.blue{
+    background-color: hsl(203deg 80% 59%);
+}
+
+.label.orange{
+    background-color: hsl(34deg 88% 57%);
+}
+
+.label.purple{
+    background-color: hsl(262deg 68% 67%);
+}
+.label.greenyellow{
+    background-color: hsl(69deg 68% 47%);
+}
+
+.label.green{
+    background-color: hsl(165deg 42% 57%);
+}
