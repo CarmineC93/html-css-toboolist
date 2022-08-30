@@ -10,10 +10,15 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+button{
+    padding: 5px 10px ;
+    border-radius: 8%;
+    border: 0;
+}
+
 /* HEADER */
 header{
-    margin: 20px;
- 
+    margin: 20px 30px;
 }
 
 header img{
@@ -21,9 +26,39 @@ header img{
 }
 
 #logo-name{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 800;
     vertical-align: middle;
 }
 
 /* MAIN */
+
+.container{
+    background-color: hsl(200deg 20% 97%);
+    height: 500px; /* PROVVISORIO! */
+    padding: 2em;
+}
+
+/* buttons space */
+
+.box-space{
+    width: 70%;
+    background-color: white;
+    border-radius: 5%;
+    margin: 0 auto;
+}
+
+.blue-button{
+    border: 1px solid hsl(204deg 86% 61%);
+    background-color:hsl(204deg 86% 61%);
+    color: white;
+    margin: 10px 0 10px 30px;
+}
+
+.white-button{
+    border: 1px solid grey;
+    background-color: white;
+    color: rgb(205, 197, 197);
+}
+
+/* list space */
