@@ -5,8 +5,11 @@
     box-sizing: border-box;
 }
 
+
+
 /* COMMON */
-body{
+
+html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -34,7 +37,7 @@ header img{
 /* MAIN */
 
 .container{
-    background-color: hsl(200deg 20% 97%);
+    background-color: hsl(200deg 20% 97%); /* potevo impostare il background color al body così evitavo l'altezza  */
     height: 1000px;  
     padding: 2em;
 }
@@ -42,7 +45,7 @@ header img{
 /* buttons space */
 
 .box{
-    width: 70%;
+    width: 70%; 
     background-color: white;
     margin: 0 auto;
     margin-top: 5px;
@@ -60,7 +63,7 @@ header img{
     border: 1px solid hsl(204deg 86% 61%);
     background-color:hsl(204deg 86% 61%);
     color: white;
-    margin: 10px 0 10px 30px;
+    margin: 10px 0 10px 100px;
 }
 
 .white-button{
@@ -119,7 +122,7 @@ li{
     color: white;
     font-size: 0.6rem;
     padding: 0.7em 1.5em;    
-    border-radius: 50px;
+    border-radius: 50px;   /*per il border radius molto meglio usare i px in qaunto la % si adatta alla larghezza. usare % solo se vogliamo un cerchio o se si lavora con rapporti definiti e prevedibili tra larghezza e altezza degli elementi */
 }
 
 .label.blue{
